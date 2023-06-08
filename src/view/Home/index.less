@@ -1,0 +1,46 @@
+.home-root {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: calc(100vh - 150px) ;
+    background-image: url('@/assets/images/bgp.png');
+
+    .home-tab {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 300px;
+        padding: 15px;
+        background-color: antiquewhite;
+        border-radius: 15px;
+
+        .github-icon{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            margin-bottom:  20px;
+            margin-left: 95px;
+            background: #565653;
+            border-radius: 50%;
+        }
+
+        .btn-wrap{
+            margin-bottom: 5px;
+
+            .text-btn{
+                justify-content: flex-start;
+                width: 100%;
+
+                .link-text{
+                    margin-left: 5px;
+                }
+            }
+        }
+
+    }
+}
