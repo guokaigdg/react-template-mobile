@@ -12,7 +12,7 @@
 ## 🔗 Demo
 
 -   preview (mobile)[react-template-mobile](https://guokaigdg.github.io/react-template-mobile/)
--   preview（PC） [react-enterprise-template](https://guokaigdg.github.io/react-enterprise-template/)
+-   preview（PC） [react-enterprise-template](https://github.com/guokaigdg/react-enterprise-template)
 
 ## 👨🏻‍💻 Project Description
 
