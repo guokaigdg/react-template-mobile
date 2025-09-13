@@ -2,7 +2,7 @@ module.exports = {
     plugins: {
         'postcss-mobile-forever': {
             rootSelector: '#root .app', // 根元素，用于设置居中
-            viewportWidth: 750, // 窗口宽度: UI设计稿给的手机的窗口宽度 （xx/750*100vw）
+            viewportWidth: 375, // 窗口宽度: UI设计稿给的手机的窗口宽度 （xx/750*100vw）
             maxDisplayWidth: 560, // 最大宽度
             disableLandscape: true, // 禁止生成横屏媒体查询
             disableDesktop: true, // 禁止生成桌面端媒体查询
